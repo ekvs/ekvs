@@ -1,0 +1,16 @@
+{application, ekvs,
+ [{description, "A distributed, embedded, persistent key-value store for Erlang/OTP"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {ekvs_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Feng Lee <feng@emqx.io>"]},
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github","https://github.com/ekvs/ekvs"}]}
+ ]}.
