@@ -13,3 +13,4 @@ nonode@nohost/
 rebar.lock
 data/*
 .DS_Store
+*.swo
